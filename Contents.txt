@@ -1,0 +1,23 @@
+
+------
+Vehicle Software
+------
+
+camSvr - WebCam server
+commandSvr - Car control protocol/sever
+
+------
+Clients
+------
+
+# For Webpage (This can run on the car)
+wsgi             - Python to generate pages 
+wsgi-include     - Librarys used by the python pages
+wsgi-HCServer    - Dummy Phone client (not part of wsgi, part of web stuffs)
+
+
+#Laptop/desktop
+carCon - Python pygame client
+
+
+
